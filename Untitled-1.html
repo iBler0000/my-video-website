@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berat.com</title>
+    <style>
+        /* CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Berat Samanci</h1>
+        <div class="gallery">
+            <img src="image1.jpg" alt="du død">
+            <img src="image1.jpg" alt="ikke mennseker">
+            <img src="image1.jpg" alt="bilka">
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player</title>
+</head>
+<body>
+    <video id="videoPlayer" width="640" height="360" controls>
+        <source src="path_to_your_<!DOCTYPE html>
+        <html>
+        <head>
+            <title>Change Background Color</title>
+            <script>
+                function changeBackgroundColor(color) {
+                    document.body.style.backgroundColor = color;
+                }
+            </script>
+        </head>
+        <body>
+            <h1>Change Background Color</h1>
+            <button onclick="changeBackgroundColor('red')">Red</button>
+            <button onclick="changeBackgroundColor('blue')">Blue</button>
+            <button onclick="changeBackgroundColor('green')">Green</button>
+        </body>
+        </html>
+        video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        const video = document.getElementById('videoPlayer');
+
+        // Optional: Add event listener to do something when video ends
+        video.onended = function() {
+            console.log('Video ended');
+        };
+    </script>
+</body>
+</html>
